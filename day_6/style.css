@@ -1,0 +1,212 @@
+.container {
+max-width: 255px;
+margin-top: -8;
+}
+div {
+}
+h1, h2, h3, h4, h5, h6, p {
+margin: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+font-family: sans-serif;
+font-weight: lighter;
+color: #F1F1F1;
+}
+h1 {
+text-align: left;
+font-size: 200%;
+padding: 10%;
+}
+.box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9 {
+/*background-color: #A39E9A;*/
+}
+header, .box1 h1, .box4, .box5, .box6, .box7, .box8, .box9 {
+text-align: center;
+}
+.box1 p, .box3 {
+text-align: left;
+}
+p {
+font-size: 50%;
+line-height: 145%;
+font-family: Sans-serif;
+font-weight: lighter;
+/*19px*/
+}
+a {
+display: block;
+width: 90%;
+padding: 5%;
+background: #3D5C98;
+/*padding: 5px;*/
+text-align: center;
+margin-bottom: 6px;
+color: white;
+font-weight: lighter;
+text-decoration: none;
+font-size: 80%;
+
+/*padding instead of height*/
+}
+a:nth-child(1) {
+background: #3D5C98;
+}
+a:nth-child(2) {
+background: #407398;
+}
+a:nth-child(3) {
+background: #59AEEA;
+}
+main, aside {
+padding: 0 17px;
+}
+header {
+height: 155px;
+background-color: #323954;
+margin: 0px 0px 11px 0px;
+background-image: url('images/hero.jpg');
+background-size: contain;
+}
+header h1  {
+text-align: center;
+}
+header p {
+font-size: 80%;
+padding-left: 5%;
+color: white;
+font-weight: lighter;
+opacity: 10%;
+/*10px*/
+}
+.logo {
+width: 8%;
+float: left;
+padding-left: 4%;
+padding-top: 4%;
+}
+.searchIcon {
+width: 6%;
+float: right;
+margin-top: -12px;
+clear: right;
+}
+header h6 {
+float: right;
+clear: left;
+text-align: center;
+margin-right: 7%;
+margin-top: 4%;
+}
+blockquote {
+display: block;
+font-size: .83em;
+margin-top: 1.67em;
+margin-bottom: 1.67em;
+margin-left: 0;
+margin-right: 0;
+font-weight: bold;
+/*19px*/
+border-left: 1px solid;
+color: #8C7C66;
+border-color: grey;
+font-weight: lighter;
+/*font-style: oblique;*/
+margin-left: 10%;
+}
+img{
+padding: 0 0 0 0;
+width: 100%;
+}
+.box1 {
+margin: 0px 0px 17px 0px;
+height: 209px;
+}
+.box1 h3 {
+font-size: 90%;
+color: black;
+margin-bottom: 8px;
+/*12px*/
+}
+.name {
+margin-bottom: 20px;
+margin-left: 25px;
+opacity: 0.50;
+}
+.box1 .profile {
+width: 8%;
+border-radius: 50%;
+float: left;
+}
+.box2 {
+margin: 0px 0px 21px 0px;
+height: 115px;
+}
+.box2 img {
+width: 48.67%;
+}
+.box3 {
+margin: 0px 0px 50px 0px;
+height: 254px;
+}
+.box3 blockquote {
+/*10px*/
+}
+.box4 {
+margin: 0px 0px 17px 0px;
+height: 120px;
+}
+.box4 .profile2 {
+width: 36%;
+border-radius: 50%;
+}
+.box5 {
+margin: 0px 0px 37px 0px;
+height: 96px;
+}
+.box6 {
+margin: 0px 0px 17px 0px;
+height: 18px;
+font-size: 150%;
+font-weight: lighter;
+}
+.divider {
+margin: 0px 0px 4px 0px;
+height: 1px;
+background-color: grey;
+}
+.box7 {
+margin: 0px 0px 23px 0px;
+height: 116px;
+background-image: url('images/blueberries.jpg');
+}
+.box8 {
+margin: 0px 0px 23px 0px;
+height: 116px;
+background-image: url('images/san_francisco.jpg');
+}
+.box9 {
+margin: 0px 0px 21px 0px;
+height: 117px;
+background-image: url('images/woods.jpg');
+}
+.box7, .box8, .box9 {
+background-size: contain;
+overflow: hidden;
+}
+footer {
+height: 104px;
+background-color: #373E45;
+margin: 0px 0px 0px 0px;
+}
+footer h6 {
+text-align: center;
+border-collapse: separate;
+line-height: 200%;
+font-size: 30%;
+}
+.logoFooter {
+width: 10%;
+padding-top: 5%;
+margin-left: 45%;
+margin-bottom: 5%;
+}
