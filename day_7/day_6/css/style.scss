@@ -1,0 +1,307 @@
+.container {
+// max-width: 255px;
+margin-top: -8;
+
+}
+
+main, aside {
+padding: 0 17px;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+font-family: sans-serif;
+font-weight: lighter;
+color: #F1F1F1;
+}
+
+h1 {
+text-align: center;
+font-size: 26px;
+padding: 10%;
+}
+
+img{
+max-width: 255px;
+padding: 0 0 0 0;
+// width: 100%;
+}
+
+p {
+font-size: 10px;
+line-height: 145%;
+font-family: Sans-serif;
+font-weight: lighter;
+max-width: 540px;
+/*19px*/
+}
+
+.box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9 {
+/*background-color: #A39E9A;*/
+}
+
+header, .box1 h1, .box4, .box5, .box6, .box7, .box8, .box9 {
+text-align: center;
+}
+
+.box1 p, .box3 {
+text-align: left;
+}
+
+header {
+height: 155px;
+background-color: #323954;
+margin: 0px 0px 11px 0px;
+background: #fff url('../images/hero.jpg') bottom no-repeat;
+background-size: cover;
+	h1  {
+		text-align: center;
+		}
+
+		p {
+
+		font-size: 12px;
+		padding-left: 10px;
+		color: white;
+		font-weight: lighter;
+		opacity: 10%;
+		text-align: center;
+		/*10px*/
+		}
+
+		h6 {
+		float: right;
+		clear: left;
+		text-align: center;
+		margin-right: 7%;
+		margin-top: 4%;
+	}
+
+.nav {
+	max-height: 50px;
+	padding: 10px 5px 5px 20px;
+	overflow: hidden;
+
+	a:hover {
+		color: #373E46;
+		text-decoration: none;
+	}
+	img:hover {
+		padding: 5px;
+	}
+
+	.logo {
+
+		display: inline-block;
+		float: left;
+		height: 30px;
+		width: 30px;
+	}
+
+	ul {
+		float:right;
+	
+		li {
+			float: left;
+			list-style: none;
+			height: 16px;
+			width: 75px;
+			font-family: Lato, sans-serif;
+			font-size: 15px;
+			padding: 13px 0;
+		}	
+
+		.searchIcon {
+			background: url(../high-trek-images/search.png) 0 0 no-repeat;
+			background-size: 20px 20px;
+			height: 20px;
+			width: 20px;
+			margin-top: 10px;
+			margin-right: 5px;	
+		}
+	}
+}
+
+
+
+
+		// .searchIcon {
+		// width: 20px;
+		// float: right;
+		// margin-top: -12px;
+		// clear: right;
+		// }
+
+		// .logo {
+		// width: 20px;
+		// float: left;
+		// padding-left: 4%;
+		// padding-top: 4%;
+		// }
+}
+
+.box1 {
+margin: 0px 0px 17px 0px;
+// height: 209px;
+	h3 {
+	font-size: 90%;
+	color: black;
+	margin-bottom: 8px;
+	/*12px*/
+	}
+
+	.profile {
+	width: 30px;
+	border-radius: 50%;
+	float: left;
+	}
+
+	.name {
+	margin-bottom: 20px;
+	margin-left: 25px;
+	opacity: 0.50;
+	}
+
+
+}
+
+.box2 {
+margin: 0px 0px 21px 0px;
+// height: 115px;
+
+	img {
+	width: 48.67%;
+	}
+}
+
+.box3 {
+margin: 0px 0px 50px 0px;
+// height: 254px;
+
+	blockquote {
+	display: block;
+	font-size: .83em;
+	margin-top: 1.67em;
+	margin-bottom: 1.67em;
+	margin-left: 0;
+	margin-right: 0;
+	font-weight: bold;
+	/*19px*/
+	border-left: 1px solid;
+	color: #8C7C66;
+	border-color: grey;
+	font-weight: lighter;
+	/*font-style: oblique;*/
+	margin-left: 10%;
+	max-width: 540px;
+
+	}
+}
+
+.box4 {
+margin: 0px 0px 17px 0px;
+// height: 120px;
+
+	p {
+
+		margin-left: -40px;
+
+	}
+
+	.profile2 {
+	width: 80px;
+	border-radius: 50%;
+	margin-left: -100px;
+	}
+}
+
+.box5 {
+margin: 0px 0px 37px 0px;
+// height: 96px;
+
+	a {
+	display: block;
+	width: 222px;
+	padding: 10px;
+	background: #3D5C98;
+	text-align: center;
+	margin-bottom: 6px;
+	color: white;
+	font-weight: lighter;
+	text-decoration: none;
+	// font-size: ;
+	/*padding instead of height*/
+	}
+	a:nth-child(1) {
+	background: #3D5C98;
+	}
+	a:nth-child(2) {
+	background: #407398;
+	}
+	a:nth-child(3) {
+	background: #59AEEA;
+	}
+}
+
+.box6 {
+margin: 0px 0px 17px 0px;
+// height: 18px;
+font-size: 11px;
+font-weight: lighter;
+}
+
+.divider {
+margin: 0px 0px 4px 0px;
+height: 1px;
+background-color: grey;
+}
+
+.box7, .box8, .box9 {
+background-size: contain;
+max-width: 550px;
+
+// overflow: hidden;
+}
+
+.box7 {
+margin: 0px 0px 23px 0px;
+// height: 116px;
+background: #fff url('../images/blueberries.jpg') bottom no-repeat;
+}
+
+.box8 {
+margin: 0px 0px 23px 0px;
+// height: 116px;
+background: #fff url('../images/san_francisco.jpg') bottom no-repeat;
+}
+
+.box9 {
+margin: 0px 0px 21px 0px;
+// height: 117px;
+background: #fff url('../images/woods.jpg') bottom no-repeat;
+}
+
+footer {
+// height: 104px;
+background-color: #373E45;
+margin: 0px 0px 0px 0px;
+
+	h6 {
+	text-align: center;
+	border-collapse: separate;
+	line-height: 200%;
+	}
+
+
+	.logoFooter {
+	width: 20px;
+	padding-top: 18px;
+	padding: center;
+	margin-left: 47%;
+	margin-bottom: 5%;
+	}
+}
+
