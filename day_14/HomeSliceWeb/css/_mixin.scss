@@ -1,0 +1,33 @@
+$tot-width: 100%;
+
+$total-num-col: 6;
+
+$gut-width: 10%;
+
+
+$col-width: ($tot-width - (($total-num-col - 1)*$gut-width))/$total-num-col;
+
+@mixin grid1($col-num) {
+  width: ($col-width*$col-num)+(($col-num)-1)*$gut-width;
+  float: left;
+  box-sizing: border-box;
+  margin-right: $gut-width;
+  
+  &:nth-child(even) {
+    margin-right: 0;
+  }
+}
+
+@mixin grid2($col-num) {
+  width: ($col-width*$col-num)+(($col-num)-1)*$gut-width;
+  float: left;
+  box-sizing: border-box;
+  margin-right: $gut-width;
+  
+  &:nth-child(3) {
+    margin-right: 0;
+  }  
+  &:nth-child(even) {
+  	margin-right: 10%;
+  }
+}

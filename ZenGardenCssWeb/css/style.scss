@@ -1,0 +1,292 @@
+@import 'variables', 'normalize';
+
+body {
+	margin: 0;
+}
+
+header, .summary, .preamble, .explanation, .participation, .benefits, .requirements, .design-selection, .design-archives, .zen-resources {
+	padding: 2em 1em;
+}
+
+
+footer {
+	padding: 2em;
+	background: url(../img/clearBlock.jpg) 0 0 no-repeat;
+	background-size: cover;
+}
+
+header {
+	background-color: black;
+	font-family: $headerFont;
+	background: linear-gradient(
+      rgba(0, 0, 0, 0.6), 
+      rgba(0, 0, 0, 0.6)), url(../img/blocky.jpg) 0 0 no-repeat;
+	background-size: cover;
+	background-position: 60%;
+	color: $redColor;
+
+
+	h2 {
+
+	background: linear-gradient(
+      rgba(0, 0, 0, 0.5), 
+      rgba(0, 0, 0, 0.5)), url(../img/clearBlock.jpg) 0 0 no-repeat;
+	background-size: cover;
+	// background-position: 90%;
+	padding: 1em;
+
+	}
+}
+
+
+.summary {
+	background: linear-gradient(
+      rgba(0, 0, 0, 0.7), 
+      rgba(0, 0, 0, 0.7)), url(../img/blocky.jpg) 0 0 no-repeat;
+	background-size: cover;
+	background-position: 60%;
+	border-bottom: 2px solid black;
+	font-size: 1em;
+	color: $redColor;
+
+
+	a {
+		color: $orangeColor;
+		border-bottom: solid 1px $orangeColor;
+	}
+}
+
+.preamble {
+	background: $blueColor url("../img/redBlock.jpg") no-repeat center center;
+	background-size: cover;
+	// height: 302px;
+	overflow: hidden;
+}
+
+.explanation, .participation, .benefits, .requirements {
+	background: $blueColor url("../img/multiBlock.jpg") no-repeat center center;
+	background-size: cover;
+	// height: 302px;
+	overflow: hidden;
+}
+
+.preamble {
+
+	h3, p {
+	background: linear-gradient(
+      rgba(0, 0, 0, 0.7), 
+      rgba(0, 0, 0, 0.7)), url(../img/multiBlock.jpg) 0 0 no-repeat;
+	background-size: cover;
+	// background-position: 90%;
+	color: $redColor;
+	}
+}
+
+.explanation, .participation, .benefits, .requirements {
+
+	h3, p {
+	background: linear-gradient(
+      rgba(0, 0, 0, 0.6), 
+      rgba(0, 0, 0, 0.6)), url(../img/redBlock.jpg) 0 0 no-repeat;
+	background-size: cover;
+	// background-position: 90%;
+	color: $blueColor;
+	}
+
+}
+
+
+.design-selection, .design-archives, .zen-resources {
+	
+	background: url(../img/clearBlock.jpg) 0 0 no-repeat;
+	background-size: cover;
+
+	border-top: 10px solid black;
+
+	h3, ul {
+		background: linear-gradient(
+      rgba(0, 0, 0, 0.6), 
+      rgba(0, 0, 0, 0.6)), url(../img/clearBlock.jpg) 0 0 no-repeat;
+	background-size: cover;
+	// background-position: 90%;
+	color: $redColor;
+		margin: 0;
+		padding: 10px;
+	}
+
+}
+
+
+ul {
+	-webkit-padding-start: 0;
+	li {
+	list-style-type: none;
+	padding: 10px 0;
+	font-family: $subheaderFont;
+	}
+}
+
+a {
+	color: $orangeColor;
+	text-decoration: none;
+	border-bottom: solid 1px black;
+	padding-bottom: 2px;
+	line-height: 1.5em;
+}
+
+
+h2 {
+	font-size: 3.5em;
+}
+
+h3 {
+	font-size: 2.5em;
+	font-family: $subheaderFont;
+}
+
+p {
+	font-family: $subheaderFont;
+	line-height: 1.5em;
+	font-size: .9em;
+}
+
+header, .summary, .preamble, .explanation, .participation, .benefits, .requirements, .design-selection, .design-archives, .zen-resources {
+	a {
+		&:hover {
+		color: $greenColor;
+		border-bottom: solid 1px $greenColor;
+		}
+	}
+}
+
+.zen-validate-html, 
+.zen-validate-css,
+.zen-license,
+.zen-accessibility,
+.zen-github {
+	position: relative;
+	border: 2px black;
+	padding: 12px 22px;
+	margin: 20px auto;
+	box-sizing: border-box;
+	text-decoration: none;
+	color: $redColor;
+	display: inline-block;
+	max-width: 30%;
+	font-family: $subheaderFont;
+	font-weight: 800;
+	text-align: center;
+	background: linear-gradient(
+      rgba(0, 0, 0, 0.5), 
+      rgba(0, 0, 0, 0.5)), url(../img/clearBlock.jpg) 0 0 no-repeat;
+	background-size: cover;
+	}
+
+abbr[title] {
+	border-bottom: none;
+}
+
+@media screen and (min-width: 599px) {
+
+
+	.summary, .preamble, .explanation, .participation, .benefits, .requirements, .design-selection, .design-archives, .zen-resources {
+		padding: 2em calc(50% - 250px);
+	}
+
+	header {
+		padding: 20px;
+
+		h1 {
+			display: inline-block;
+			float: left;
+			padding-bottom: 20px;
+		}
+
+		h2 {
+			text-align: center;
+			margin: 0 auto;
+			display: block;
+			clear: both;
+			background: none;
+		}
+	}
+
+		body, footer {
+
+		background-color: $redColor;
+
+	}
+
+	footer {
+		padding: 10px;
+		display: inline-block;
+	}
+
+	.zen-validate-html, 
+	.zen-validate-css,
+	.zen-license,
+	.zen-accessibility,
+	.zen-github {
+		margin: 50px 20px;
+		display: inline-block;
+	}
+
+	.explanation, .participation, .benefits, .requirements, .design-selection, .design-archives, .zen-resources {
+		p, nav ul, ul {
+			padding: 30px 30px 30px 100px;
+			margin: 0;
+		}
+	}
+}
+
+@media screen and (min-width: 899px) {
+	
+	header {
+
+		h2 {
+			padding: 40px;
+			background: none;
+
+		}
+	}
+
+	.sidebar {
+		width: 25%;
+		display: inline-block;
+		float: right;
+		padding: 0;
+		.design-selection, .design-archives, .zen-resources {
+			padding: 20px;
+			background: none;
+			border: none;
+
+			p, nav ul, ul {
+				padding: 30px;
+			}
+			
+			ul {
+				box-shadow: none; 
+			}
+		}
+	}
+	.main {
+		width: 75%;
+		float: left;
+	}
+
+	.requirements {
+		border-bottom: none;
+	}
+	body, footer {
+
+		background-color: $redColor;
+
+	}
+
+	footer {
+
+		padding: 20px;
+
+	}
+
+}
