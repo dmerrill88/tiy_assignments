@@ -1,0 +1,151 @@
+## Snippet #1
+
+#### Evaluate this expression: 100+4
+ = 4
+
+## Snippet #2
+
+#### Evaluate this expression: 'a'+’b’
+ = ab
+
+## Snippet #3
+
+#### Evaluate this expression: 'Bob'+’Smith’
+ = BobSmith
+
+## Snippet #4
+
+#### Evaluate this expression: '7'+’9’
+ = 79
+
+## Snippet #5
+
+#### Evaluate this expression: '7’+9
+ = 79
+
+## Snippet #6
+
+#### Evaluate this expression: '7'-9
+ = 7-9
+
+## Snippet #7
+
+#### Evaluate this expression: 'abc'*3
+ = NAN
+
+## Snippet #8
+
+#### Evaluate this expression: 7+2*3
+ = 13
+
+## Snippet #9
+
+#### Evaluate this expression: (7+2)*3
+ = 27
+
+## Snippet #10
+
+#### Evaluate this expression: (null+2)/3
+ = 0.6666
+
+## Snippet #11
+
+### var name;
+#### Evaluate this expression: name
+ = undefined
+
+## Snippet #12
+
+### var x = 7;
+### var y = 4;
+### var z = x * y;
+#### Evaluate this expression: z-3
+ = 25
+
+## Snippet #13
+
+### var a = true;
+### var b = false;
+#### Evaluate this expression: a && b
+ = false
+
+## Snippet #14
+
+### var a = true;
+### var b = false;
+#### Evaluate this expression: a || b
+ = true
+
+## Snippet #15
+
+### var foo = 3;
+### foo++;
+### foo++;
+#### Evaluate this expression: foo/2
+ = 2.5
+
+## Snippet #16
+
+### var age = 29.8;
+### var wholeAge = Math.floor(age);
+### var nextAge = Math.ceil(age);
+#### Evaluate this expression: nextAge - wholeAge
+ = 1
+
+## Snippet #17
+
+#### Evaluate this expression: '5' + 3 - 3
+ = 50
+
+## Snippet #18
+
+### var isRed = false;
+### isRed = !isRed;
+#### Evaluate this expression: isRed
+ = true
+
+## Snippet #19
+
+### var isBlue = true;
+### var isBlue = !!isBlue;
+#### Evaluate this expression: isBlue
+ = true
+
+## Snippet #20
+
+### var name = 'Sally';
+### var age = 25;
+#### Evaluate this expression: name.length + age
+ =  30
+
+## Snippet #21
+
+### var x = 10;
+### var y = 73.3;
+
+### var point = '[' + x + ', ' + y + ']';
+#### Evaluate this expression: 'point: ‘ + point
+
+= ?
+
+## Snippet #22
+
+### var numberOfSheep = 16;
+### var numberOfGoats = 3;
+#### Evaluate this expression: numberOfGoats + numberOfSheep++ 
+
+= 19 or 20
+
+## Snippet #23
+
+### var numberOfSheep = 16;
+### var numberOfGoats = 3;
+#### Evaluate this expression: numberOfGoats - ++numberOfSheep
+
+ = -14
+
+## Snippet #24
+
+### var x;
+### var y = (x=7);
+#### Evaluate this expression: y = 7
