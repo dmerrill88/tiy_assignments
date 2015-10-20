@@ -1,0 +1,12 @@
+#gmap_canvas {
+
+	border-radius: 10%;
+
+}
+
+#map {
+
+	width: 500px;
+	height: 400px;
+	
+}
